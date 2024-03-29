@@ -1,0 +1,93 @@
+div {
+  box-sizing: border-box;
+}
+body,
+p {
+  margin: 0;
+  font-family: "나눔스퀘어OTF";
+}
+html {
+  line-height: 1.15; /*기본 행간 높이*/
+}
+
+.sns-container {
+  background-color: #f7f9fc;
+  padding: 50px 100px;
+}
+
+.white-box {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #e5e8ed;
+  padding: 25px;
+}
+
+.white-box-pb {
+  padding-bottom: 200px;
+}
+
+.intro-img {
+  width: 100%;
+  max-width: 155px;
+}
+
+.friend-img {
+  width: 70px;
+}
+
+.font-skyblue {
+  color: #6ab6f7;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-15 > p {
+  margin: 4px 0;
+}
+
+.blue-btn {
+  background: #6fbaf8;
+  border-radius: 3px;
+  border: none;
+  padding: 6px 17px;
+  font-size: 15px;
+}
+
+.detail-col div {
+  padding: 4px 14px;
+}
+
+.blank {
+  border-right: #dddfe4 2px solid;
+}
+
+.skill-pill {
+  border: #d1d5db solid 2px;
+
+  padding: 5px 13px;
+  margin: 0 7px 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sns-container {
+    padding: 30px;
+  }
+
+  .blank {
+    border: none;
+  }
+
+  .white-box-pb {
+    padding-bottom: 50px;
+  }
+}

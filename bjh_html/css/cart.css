@@ -1,0 +1,131 @@
+div {
+  box-sizing: border-box;
+}
+
+body,
+h2,
+p {
+  margin: 0;
+  font-family: "noto serif kr";
+}
+
+html {
+  line-height: 1.15;
+  /*기본 행간 높이*/
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: rgb(19, 55, 97);
+}
+
+img {
+  width: 70px;
+}
+
+table {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+
+  text-align: right;
+  color: rgb(178, 204, 214);
+}
+
+thead {
+  color: rgb(140, 158, 178);
+  font-weight: bold;
+}
+
+tbody td {
+  border-top: 2px solid rgb(178, 204, 214);
+  border-bottom: 2px solid rgb(178, 204, 214);
+}
+
+.table-background {
+  background-color: rgb(178, 204, 214);
+  padding: 5%;
+}
+
+tbody td:nth-child(1) {
+  text-align: center;
+}
+
+td:nth-child(2) {
+  text-align: left;
+  color: rgb(140, 158, 178);
+}
+
+td:not(td:nth-child(1)) {
+  padding: 16px;
+}
+
+span {
+  color: black;
+  font-family: "noto serif";
+}
+
+.price {
+  text-align: right;
+  font-size: 20px;
+  color: rgb(19, 55, 97);
+  padding: 16px;
+}
+
+tbody td:nth-child(5) {
+  color: rgb(19, 55, 97);
+}
+
+.linklink {
+  margin-top: 20px;
+}
+
+.linklink a {
+  float: left;
+  color: rgb(19, 55, 97);
+  position: relative;
+  top: 10px;
+}
+
+.linklink a:visited {
+  float: left;
+  color: rgb(19, 55, 97);
+  position: relative;
+  top: 10px;
+}
+
+.semi-background {
+  max-width: 900px;
+  margin: auto;
+}
+
+.linklink button {
+  box-sizing: border-box;
+  width: 36%;
+  max-width: 300px;
+  height: 55px;
+  background-color: rgb(19, 55, 97);
+  font-size: 15px;
+  color: rgb(178, 204, 214);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+
+  cursor: pointer;
+}
+
+.linklink button:hover {
+  border-radius: 20px;
+}
+
+.linklink button:focus {
+  background-color: gray;
+  border-radius: 20px;
+}
+
+.linklink button:active {
+  background-color: cornflowerblue;
+}

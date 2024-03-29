@@ -1,0 +1,37 @@
+div {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.prduct-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.prduct-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .prduct-container {
+    max-width: 600px;
+  }
+
+  .prduct-container div {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prduct-container div {
+    width: 100%;
+  }
+}

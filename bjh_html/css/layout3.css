@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+body,
+p {
+  margin: 0;
+}
+
+html {
+  line-height: 1.15;
+  /*기본 행간 높이*/
+}
+
+.container {}
+
+.text-box {
+  float: left;
+  font-family: 'S-CoreDream-3Light';
+  text-align: center;
+  width: 200px;
+}
+
+.text-box>p {
+  padding: 15px;
+}
+
+.text-box>div {
+  padding: 5px;
+}
+
+@media screen and (max-width:1200px) {
+  .c-1200 {
+    clear: both;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .c-768 {
+    clear: both;
+  }
+}

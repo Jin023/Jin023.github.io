@@ -1,0 +1,21 @@
+body {
+  font-family: "noto serif";
+}
+
+.card-portrait {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  object-position: center;
+  margin: auto;
+}
+
+.author {
+  width: 70px;
+  height: 70px;
+}
+
+.author-text {
+  font-family: "noto sans";
+  font-size: 14px;
+}

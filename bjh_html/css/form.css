@@ -1,0 +1,77 @@
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  line-height: 1.15;
+  /*기본 행간 높이*/
+}
+
+p,
+input,
+h3,
+textarea,
+label,
+bu {
+  font-family: "noto sans kr";
+}
+
+.form-background {
+  background-color: #333333;
+  padding: 30px;
+}
+
+.form-white {
+  background-color: white;
+  width: 70%;
+  min-width: 400px;
+  max-width: 500px;
+
+  margin: auto;
+  padding: 20px;
+}
+
+.form-input {
+  width: 100%;
+  font-size: 16px;
+  padding: 7px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.send-button {
+  width: 50%;
+  height: 100%;
+
+  font-size: 16px;
+  color: white;
+  background-color: orange;
+  border: 0px;
+  border-radius: 5px;
+
+  float: right;
+}
+
+.tail {
+  height: 50px;
+}
